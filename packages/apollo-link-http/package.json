@@ -42,7 +42,8 @@
     "watch": "tsc -w -p . & rollup -c -w"
   },
   "dependencies": {
-    "apollo-link": "^1.0.7"
+    "apollo-link": "^1.0.7",
+    "apollo-link-batch": "^1.0.3"
   },
   "peerDependencies": {
     "graphql": "^0.11.0 || ^0.12.0"
